@@ -1,0 +1,44 @@
+.each-student { 
+  border: 1px solid black; 
+  padding: 10px; 
+  margin: 0;
+}
+.each-student h4 { 
+  margin: 0;
+}
+.title-list { 
+  background-color: aqua;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+  border: 2px black solid;
+}
+.element-list { 
+  list-style: none;
+  margin: 5px ;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+.displayed { 
+  text-align: center;
+  font-size: 10em;
+  width: 300px;
+  margin: 0 auto;
+  font-weight: bold;
+}
+.containtButton { 
+  margin: 0px auto;
+}
+.containtButton button {
+  width: 100px;
+  margin: 5px;
+  background-color: aqua;
+  padding: 10px; 
+  color: #fff; 
+  font-size: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 30%);
+}

@@ -1,0 +1,21 @@
+.card { 
+    max-width: 200px;
+    border: 1px solid white; 
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, .5);
+    padding: 10px;
+    margin: 10px; 
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+}
+.cardImg { 
+    max-width: 60%;
+    border-radius: 50%;
+
+
+}
+.cardTitle { 
+    font-size: 20px;
+    margin: 10px; 
+    font-family: Arial, Helvetica, sans-serif;
+}

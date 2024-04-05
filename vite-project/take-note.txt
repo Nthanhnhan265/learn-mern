@@ -1,0 +1,22 @@
+1. what is props? 
+    - 
+    - parents component can send data to child component
+    - <Component key=value />
+    1.1. what is props-type
+        - definate the data type of the props
+        - import propTypes from 'prop-types'
+        -> pros: no stop the application, just print log to the console
+    1.2 what is default prop? 
+        - default value for properties if they aren't passed
+2 condition rendering: 
+    - using if else statement to set up condition for rendering
+3 list rendering
+    - using map() method or for-loop to creat a new array that have <li></li> for each element
+4 click events
+    - interation with element by clicking
+5 react hook() 
+    - Special function allows functional components to use React Feature without writing class Compotent
+6 useState() 
+    - creation a statefule variable and setter function to update its value in the virtual DOM 
+        + onClick 
+        + onChange
