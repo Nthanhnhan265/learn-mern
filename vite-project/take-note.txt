@@ -20,3 +20,4 @@
     - creation a statefule variable and setter function to update its value in the virtual DOM 
         + onClick 
         + onChange
+    - updater function

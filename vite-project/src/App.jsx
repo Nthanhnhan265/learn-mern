@@ -8,6 +8,8 @@ import Student from './Student.jsx';
 import Login from './Login.jsx';
 import List from './List.jsx';
 import Counter from './Counter.jsx';
+import MyComponents from './MyComponents.jsx';
+import Todo from './Todo.jsx';
 
 function App() {
   const Fruit = [
@@ -21,8 +23,8 @@ function App() {
     {id: "6",name: "Tomatoe",calories: 0}
   ]
   return (
-      <>
-        <Header />
+        <>
+        {/* <Header /> */}
         {/* <Food></Food> */}
         {/* <Card></Card>
         <Card></Card> */}
@@ -35,8 +37,9 @@ function App() {
         {/* {Fruit.length > 0 && <List title = {"Fruit"}/> }
         {Veggies.length >0 && <List listItem ={Veggies} title = {"Vegetables"}/> }
         */}
-        <Counter />
-        <Footer />
+        {/* <Counter /> */}
+        <Todo></Todo>
+        {/* <Footer /> */}
       </>
     );
 }

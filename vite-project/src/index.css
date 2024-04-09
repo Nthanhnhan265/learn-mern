@@ -42,3 +42,60 @@
   font-size: 20px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 30%);
 }
+
+
+.todo { 
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px; 
+  margin: 0 auto;
+  color: #fff;
+}
+.list-task li{ 
+ list-style: none; 
+}
+button { 
+  color: #fff;
+  margin: 5px; 
+  border-radius: 5px;
+  padding: 10px 10px; 
+}
+
+ol { 
+  margin: 0 5vw;
+  padding: 0; 
+}
+.tasks { 
+  display: flex;
+  background-color: rgb(255,255,255);
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  border: 2px solid black;
+  padding: 10px 5px; 
+  border-radius: 5px;
+}
+.tasks p { 
+  color: #000; 
+  flex-grow: 2;
+  text-align: left;
+}
+.btn-add { 
+  background-color:green
+  
+}
+.btn-rm { 
+  background-color: #fff;
+}
+.content-task { 
+  font-size: 15px;
+  margin-right: 10px; 
+}
+input { 
+  width: 50vw;
+  padding: 10px; 
+  margin-bottom: 20px;
+}
+body { 
+  background-color: #000;
+}
